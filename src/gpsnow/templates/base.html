@@ -1,0 +1,25 @@
+{% load staticfiles %}<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<title>{% block title %}{% endblock %}</title>
+
+<script src="{% static "js/jquery-2.1.3.min.js" %}"></script>
+<script src="{% static "js/mapstyles.js" %}"></script>
+
+<script>
+  var url_list_transponders = "{% url "list_transponders" %}";
+  var url_waypoint_latest = "{% url "waypoint_latest" %}";
+</script>
+
+{% block extraheader %}{% endblock %}
+{% block scripts %}{% endblock %}
+</head>
+<body>
+
+{% block content %}{% endblock %}
+
+</body>
+</html>
