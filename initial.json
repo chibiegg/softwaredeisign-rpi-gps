@@ -1,0 +1,30 @@
+[
+{
+  "fields": {
+    "last_login": "2015-07-16T14:20:19.273",
+    "is_active": true,
+    "user_permissions": [],
+    "username": "admin",
+    "groups": [],
+    "is_superuser": true,
+    "date_joined": "2015-07-16T14:20:13.859",
+    "email": "",
+    "is_staff": true,
+    "first_name": "",
+    "password": "pbkdf2_sha256$20000$ESSMdXwOpIHq$jj1EoytXqMtmDIiiDBRtKDfGnpx5CqoRgDJRw9HFbfU=",
+    "last_name": ""
+  },
+  "model": "auth.user",
+  "pk": 1
+},
+{
+  "fields": {
+    "description": "",
+    "name": "GPS01",
+    "marker": "",
+    "marker_disabled": ""
+  },
+  "model": "gpsnow.transponder",
+  "pk": 1
+}
+]
